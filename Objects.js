@@ -1,5 +1,5 @@
 const CryptoJS = require('crypto-js')
-const { dec, enc } = require('encmed')
+const { dec, enc } = require('encmed') // my own encryption npm package
     // 
 let Objects = {
     encDec(data, key, isdec) {
